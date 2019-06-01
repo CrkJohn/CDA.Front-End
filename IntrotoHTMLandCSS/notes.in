@@ -1,0 +1,39 @@
+Rich text is formatted with fonts and styles and colors etc
+Plain text is set of ascii chars 
+
+Integrated
+Development
+Environment
+
+div , its means division
+
+
+
+This template can be broken down into 3 parts:
+
+DOCTYPE: Describes the type of HTML. While there are technically different types, 
+	 for 99.999% of the HTML you'll write, you’ll likely be fine with <!DOCTYPE html>.
+<head>: Describes meta information about the site, such as the title, and provides links 
+	to scripts and stylesheets the site needs to render and behave correctly.
+<body>: Describes the actual content of the site that users will see.
+
+
+The <head> will contain general information and metadata about the page, while the <body> 
+will contain the content that will be displayed on the page. Here’s an example tree structure 
+for a full HTML document:
+
+The <head>, on the other hand, is never visible, but the information in it describes the page 
+and links to other files the browser needs to render the website correctly. For instance, 
+the <head> is responsible for:
+
+the document’s title (the text that shows up in browser tabs): <title>About Me</title>.
+associated CSS files (for style): <link rel="stylesheet" type="text/css" href="style.css">.
+associated JavaScript files (multipurpose scripts to change rendering and behavior): <script src="animations.js"></script>. the charset being used (the text's encoding): <meta charset="utf-8">.
+keywords, authors, and descriptions (often useful for SEO): <meta name="description" content="This is what my website is all about!">.
+… and more!
+
+
+<meta charset="utf-8"> is pretty standard, and will allow your website to display any Unicode character. 
+(Read more on how UTF-8 works here.) <title> will define the title of the document and will be displayed 
+in the tab of the browser window when a user visits the page.
+
