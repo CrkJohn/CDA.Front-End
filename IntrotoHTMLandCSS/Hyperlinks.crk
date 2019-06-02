@@ -1,0 +1,20 @@
+Hyperlinks
+The power of the web is that pages can lead to other pages. When you click on a link on a web page, it takes you to another page. This link is called a hyperlink.
+
+Hyperlinks are created with anchor elements, which generally look like:
+
+<a href="https://www.udacity.com">Udacity</a>
+and render on the page like this: Udacity.
+
+Inside the opening a tag there is href, which stands for "reference." This is called an attribute. Attributes like href describe the properties of HTML elements. In this case, the href attribute is the target URL that the link will open. The content inside the anchor element is the text that users see displayed on the page.
+
+This is the format that you must use when you make hyperlinks! Note:
+	There is a space between a and href.	
+	There are no spaces around the =.
+	The website has two " around it.
+	There are no spaces between the href attribute and the > of the opening ta
+
+
+Solve of quiz
+
+<a href="https://www.google.com">Google</a>
